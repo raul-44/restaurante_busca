@@ -1,0 +1,66 @@
+#centro{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+#pesquisa:hover #busca{
+    color: rgb(209, 127, 34);
+}
+#pesquisa{
+ width: 100%;
+}
+#busca{
+    transition: 0.35s;
+}
+#mall{
+    margin-left: 13.75%;
+    display:grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-rows: 250px 250px 250px 250px 250px;
+}
+#item{
+    border-radius: 3.5%;
+    background-size: cover;
+    margin: 2ch;
+    border: solid; 
+    border-color: white;
+    transition: 0.5s;
+}
+#item:hover{
+    border-color: rgb(209, 127, 34);
+}
+#item:hover #descrip{
+    opacity: 100%;
+    margin-top: 207px;
+}
+
+#descrip{
+    list-style: none;
+    color: rgb(250, 250, 250);
+    border-radius: 3.5%;
+    background-color: rgb(209, 127, 34);
+    position: absolute;
+    margin-top: 100px;
+    width: 362px;
+    height: 150px;
+    opacity: 0%;
+    transition: 0.5s;
+    border-top: solid;
+    border-top-color: rgb(209, 127, 34);
+}
+#lista li{
+    margin-left: 1ch;
+    margin-top: 1ch;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    font-size: 170%;
+}
+#btn:hover{
+    background-color: rgb(209, 127, 34);
+    border: solid;
+    border-color: rgb(255, 255, 255);
+}
+#btn:hover #btb{
+    color: rgb(255, 255, 255);
+}
