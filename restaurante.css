@@ -1,3 +1,6 @@
+*{
+  font-family: "Staatliches", sans-serif;
+}
 #centro{
     display: flex;
     width: 100%;
